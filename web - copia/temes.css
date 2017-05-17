@@ -1,0 +1,1236 @@
+		body{
+					font-size: 18px;
+					font-family: helvetica;
+					background-color: #ECECEC
+
+				}	
+
+		h1 {
+					text-align: center;
+					font-size: 72px;
+
+				}
+
+				@media only screen and (min-width: 769px) and (orientation: landscape)
+{
+
+		#historia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#gastronomia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+	
+		#coffeeshop	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#hotels	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#barriroig	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#activitats	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#floriade	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bicicleta	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bghistoria {
+			background-color: #39bfef;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbarriroig	{
+			background-color: #cd1619;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgactivitats {
+			background-color: #f18a1f;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bggastronomia {
+			background-color: #273582;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbicicleta {
+			background-color: #b2b2b1;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgcoffeeshop {
+			background-color: #3fa435;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bghotel {
+			background-color: #ffed00;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgfloriade {
+			background-color: #fbc7e3;
+			height: 20px;
+			width: 100%;
+		}
+
+		#text {
+			background-color: white;
+			margin-right: 20px;
+			margin-left: 20px;
+			padding: 2em;
+
+			}
+
+		
+		#historiagif {
+			background-image: url(img/historiagif.gif);
+			height: 300px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#coffeegif {
+			background-image: url(img/coffeegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#barriroiggif {
+			background-image: url(img/barriroiggif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#floriadegif {
+			background-image: url(img/floriadegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#bicicletagif {
+			background-image: url(img/bicicletagif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		
+			ul {
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				position: absolute;
+			}
+
+
+			li {
+				display:inline-block;
+				float: left;
+				margin-right: 1px;
+			}
+
+
+			li a {
+				display:block;
+				min-width:140px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: #fff;
+				background: #2f3036;
+				text-decoration: none;
+			}
+
+
+			li:hover a {
+				background: #ff0000;
+			}
+
+			li:hover ul a {
+				background: #f3f3f3;
+				color: #2f3036;
+				height: 40px;
+				line-height: 40px;
+			}
+
+
+			li:hover ul a:hover {
+				background: #19c589;
+				color: #fff;
+			}
+
+
+			li ul {
+				display: none;
+			}
+
+
+			li ul li {
+				display: block;
+				float: none;
+			}
+
+
+			li ul li a {
+				width: auto;
+				min-width: 100px;
+				padding: 0 20px;
+			}
+
+
+			ul li a:hover + .hidden, .hidden:hover {
+				display: block;
+			}
+
+
+			.show-menu {
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-decoration: none;
+				color: #fff;
+				background: #d60000;
+				text-align: center;
+				padding: 10px 0;
+				display: none;
+			}
+
+
+			input[type=checkbox]{
+			    display: none;
+			}
+
+
+			input[type=checkbox]:checked ~ #menu{
+			    display: block;
+			}
+
+
+			ul {
+				position: static;
+				display: none;
+			}
+			
+			li {
+				margin-bottom: 1px;
+			}
+			
+			ul li, li a {
+				width: 100%;
+			}
+			
+			.show-menu {
+				display:block;
+			}
+
+
+
+
+				
+					
+
+						}
+
+
+
+
+
+			@media only screen and (min-width: 769px) and (orientation: portrait)
+{
+
+		#historia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#gastronomia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+	
+		#coffeeshop	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#hotels	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#barriroig	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#activitats	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#floriade	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bicicleta	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bghistoria {
+			background-color: #39bfef;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbarriroig	{
+			background-color: #cd1619;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgactivitats {
+			background-color: #f18a1f;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bggastronomia {
+			background-color: #273582;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbicicleta {
+			background-color: #b2b2b1;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgcoffeeshop {
+			background-color: #3fa435;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bghotel {
+			background-color: #ffed00;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgfloriade {
+			background-color: #fbc7e3;
+			height: 20px;
+			width: 100%;
+		}
+
+		#text {
+			background-color: white;
+			margin-right: 20px;
+			margin-left: 20px;
+			padding: 2em;
+
+			}
+
+		
+
+		#historiagif {
+			background-image: url(img/historiagif.gif);
+			height: 300px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#coffeegif {
+			background-image: url(img/coffeegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#barriroiggif {
+			background-image: url(img/barriroiggif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#floriadegif {
+			background-image: url(img/floriadegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#bicicletagif {
+			background-image: url(img/bicicletagif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		/*Strip the ul of padding and list styling*/
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+li a {
+	display:block;
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #2f3036;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+	background: #19c589;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	background: #19c589;
+	color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+	display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #19c589;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+
+
+		
+
+			}
+
+
+			@media only screen and (max-width: 768px) and (orientation: landscape)
+{
+
+		#historia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#gastronomia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+	
+		#coffeeshop	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#hotels	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#barriroig	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#activitats	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#floriade	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bicicleta	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bghistoria {
+			background-color: #39bfef;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbarriroig	{
+			background-color: #cd1619;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgactivitats {
+			background-color: #f18a1f;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bggastronomia {
+			background-color: #273582;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbicicleta {
+			background-color: #b2b2b1;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgcoffeeshop {
+			background-color: #3fa435;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bghotel {
+			background-color: #ffed00;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgfloriade {
+			background-color: #fbc7e3;
+			height: 20px;
+			width: 100%;
+		}
+
+		#text {
+			background-color: white;
+			margin-right: 20px;
+			margin-left: 20px;
+			padding: 2em;
+
+			}
+
+		
+
+		#historiagif {
+			background-image: url(img/historiagif.gif);
+			height: 300px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#coffeegif {
+			background-image: url(img/coffeegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#barriroiggif {
+			background-image: url(img/barriroiggif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#floriadegif {
+			background-image: url(img/floriadegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#bicicletagif {
+			background-image: url(img/bicicletagif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		ul {
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				position: absolute;
+			}
+
+
+			li {
+				display:inline-block;
+				float: left;
+				margin-right: 1px;
+			}
+
+
+			li a {
+				display:block;
+				min-width:140px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: #fff;
+				background: #2f3036;
+				text-decoration: none;
+			}
+
+
+			li:hover a {
+				background: #19c589;
+			}
+
+			li:hover ul a {
+				background: #f3f3f3;
+				color: #2f3036;
+				height: 40px;
+				line-height: 40px;
+			}
+
+
+			li:hover ul a:hover {
+				background: #19c589;
+				color: #fff;
+			}
+
+
+			li ul {
+				display: none;
+			}
+
+
+			li ul li {
+				display: block;
+				float: none;
+			}
+
+
+			li ul li a {
+				width: auto;
+				min-width: 100px;
+				padding: 0 20px;
+			}
+
+
+			ul li a:hover + .hidden, .hidden:hover {
+				display: block;
+			}
+
+
+			.show-menu {
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-decoration: none;
+				color: #fff;
+				background: #19c589;
+				text-align: center;
+				padding: 10px 0;
+				display: none;
+			}
+
+
+			input[type=checkbox]{
+			    display: none;
+			}
+
+
+			input[type=checkbox]:checked ~ #menu{
+			    display: block;
+			}
+		
+		ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+
+			}
+
+			@media only screen and (max-width: 768px) and (orientation: portrait)
+{
+
+		h1 {
+			font-size: 42px;
+		}
+
+		#historia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#gastronomia	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+	
+		#coffeeshop	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#hotels	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#barriroig	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#activitats	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#floriade	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bicicleta	{
+					height: 150px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+		#bghistoria {
+			background-color: #39bfef;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbarriroig	{
+			background-color: #cd1619;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgactivitats {
+			background-color: #f18a1f;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bggastronomia {
+			background-color: #273582;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgbicicleta {
+			background-color: #b2b2b1;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgcoffeeshop {
+			background-color: #3fa435;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bghotel {
+			background-color: #ffed00;
+			height: 20px;
+			width: 100%;
+		}
+
+		#bgfloriade {
+			background-color: #fbc7e3;
+			height: 20px;
+			width: 100%;
+		}
+
+		#text {
+			background-color: white;
+			margin-right: 20px;
+			margin-left: 20px;
+			padding: 2em;
+
+			}
+
+
+		
+
+		#historiagif {
+			background-image: url(img/historiagif.gif);
+			height: 300px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#coffeegif {
+			background-image: url(img/coffeegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#barriroiggif {
+			background-image: url(img/barriroiggif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#floriadegif {
+			background-image: url(img/floriadegif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#bicicletagif {
+			background-image: url(img/bicicletagif.gif);
+			height: 450px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		/*Strip the ul of padding and list styling*/
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+li a {
+	display:block;
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #2f3036;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+	background: #19c589;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	background: #19c589;
+	color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+	display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #19c589;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+		
+
+			}
+		
+
+			}

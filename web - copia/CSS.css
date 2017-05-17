@@ -1,0 +1,577 @@
+				
+
+
+
+				body{
+					font-size: 18px;
+					font-family: helvetica;
+
+				}	
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait)
+{
+
+				h2 {
+					text-align: center;
+					font-size: 72px;
+				}	
+
+				a {
+					text-decoration: none;
+					color: black;
+				}
+
+
+				#menu		{
+
+					height: 300px;
+					width: 100%;
+					background-image: url(img/risetrips.png);
+					background-color: #ECECEC;
+					background-position: center;
+					background-repeat: no-repeat;
+
+				}
+
+
+
+				#historia		{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+
+					 }
+
+				#gastronomia		{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+
+				#hotels		{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+
+				 #activitats	{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+
+				#barriroig	{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+
+				#coffeeshop	{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+
+				#floriade	{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+
+				#bicicleta	{
+					height: 200px; 
+					width: 100%;
+					background-image: url(img/bicicleta.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+				#info	{
+					height: 27em; 
+					width: 100%;
+					background-color: #ECECEC;
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+					text-align: center;
+					 }
+
+				#telf	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#aroba	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#up	{
+					margin-left: 10%;
+					float: left;
+
+				}
+			}
+
+
+
+@media only screen and (max-width: 768px) and (orientation: landscape)
+{  
+
+
+
+	h1 {
+					text-align: center;
+					font-size: 72px;
+				}	
+
+				a {
+					text-decoration: none;
+					color: black; }
+
+				#menu		{
+
+					height: 300px;
+					width: 100%;
+					background-image: url(img/risetrips.png);
+					background-color: #ECECEC;
+					background-position: center;
+					background-repeat: no-repeat;
+
+				}
+
+				#historia		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#gastronomia		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#hotels		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				 #activitats	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#barriroig	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#coffeeshop	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#floriade	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#bicicleta	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/bicicleta.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+				#info	{
+					height: 300px; 
+					width: 100%;
+					background-color: #ECECEC;
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#telf	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#aroba	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#up	{
+					margin-left: 10%;
+					float: left;
+
+				}
+			}
+
+
+			@media only screen and (min-width: 769px) and (orientation: landscape)
+{  
+
+
+
+	h1 {
+					text-align: center;
+					font-size: 72px;
+				}	
+				a {
+					text-decoration: none;
+					color: black;}
+
+
+				#menu		{
+
+					height: 300px;
+					width: 100%;
+					background-image: url(img/risetrips.png);
+					background-color: #ECECEC;
+					background-position: center;
+					background-repeat: no-repeat;
+
+				}
+
+				#historia		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#gastronomia		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#hotels		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				 #activitats	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#barriroig	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#coffeeshop	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#floriade	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#bicicleta	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/bicicleta.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+				#info	{
+					height: 300px; 
+					width: 100%;
+					background-color: #ECECEC;
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#telf	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#aroba	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#up	{
+					margin-left: 10%;
+					float: left;
+
+				}
+			}
+
+			@media only screen and (min-width: 769px) and (orientation: portrait)
+{  
+
+
+
+	h1 {
+					text-align: center;
+					font-size: 72px;
+				}	
+
+				a {
+					text-decoration: none;
+					color: black;}
+
+
+				#menu		{
+
+					height: 300px;
+					width: 100%;
+					background-image: url(img/risetrips.png);
+					background-color: #ECECEC;
+					background-position: center;
+					background-repeat: no-repeat;
+
+				}
+
+				#historia		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/historia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#gastronomia		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/gastronomia.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#hotels		{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/hotels.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				 #activitats	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/activitats.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#barriroig	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/barriroig.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#coffeeshop	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/coffeeshop.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#floriade	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/floriade.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#bicicleta	{
+					height: 300px; 
+					width: 100%;
+					background-image: url(img/bicicleta.jpg);
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+				#info	{
+					height: 300px; 
+					width: 100%;
+					background-color: #ECECEC;
+					background-size: auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					padding-top: 80px;
+
+					 }
+
+				#telf	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#aroba	{
+					margin-left: 10%;
+					float: left;
+				}
+
+				#up	{
+					margin-left: 10%;
+					float: left;
+
+				}
+			}
